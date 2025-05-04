@@ -36,17 +36,39 @@ print(a//b)
 
 #Comparison Operators
 
-# Equals?
+# Equals? -- Display the result if 5 is equal 5.0
 c = 5
 d = 5.0
 print(c == d)
 
-#Grater than
+#Grater than --Display the result if 5 is greater than 2
 a=5
 b=2
 print(5>2)
 
-#loweer than
+#loweer than -- Display the result if 5 is lower than 2
 a=5
 b=2
 print(a<b)
+
+# Display the result if 5 is greater than or equal to 5.0 ?
+a=5;b=5.0
+print(a>=b)
+
+#  Display the result if 5 is lower than or equal to 4
+a=5;b=4
+print(a<=b)
+
+# Display the result if 5 is equal or not to 5.0?
+x=5; b=5.0
+print(x!=b)
+
+#  Check if the value 10 is in the given list [1,5,10,101]
+x=10
+y=[1,5,10,101]
+print (x in y)
+
+# Check if the value -8 is in the given list [1,5,10,101]
+x=-8
+y=[1,5,10,101]
+print (x in y)
