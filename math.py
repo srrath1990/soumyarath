@@ -66,6 +66,3 @@ print("Area of circle is" ,Area_of_circle)
 radius=int(input("enter your radius"))
 vol_of_sphere=4/3 * math.pi * radius**3
 print("Volume of sphere is" ,vol_of_sphere)
-
-#
-git status
